@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Bootstrap Image Gallery</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/bdd0d4f248.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- NAV BAR!! -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Billi Cactus</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-phone"></span> Contacto</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
+
+    <!-- END NAV BAR -->
+
+    <!-- JUMBOTRON -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Image Gallery</h1>
+        </div>
+    </div>  
+    
+    <!-- JUMBOTRON END -->
+
+    <div class="btn-group button-group filter-button-group buttons">
+            <button class="btn btn-default btn-lg" role="group" data-filter="*">
+                <span class="glyphicon glyphicon-star"></span> Todos</button>
+            <button class="btn btn-default btn-lg" data-filter=".dogs">
+                <span class="glyphicon glyphicon-sunglasses"></span> Perros</button>
+            <button class="btn btn-default btn-lg" data-filter=".cats">
+                    <span class="glyphicon glyphicon-sunglasses"></span> Gatos</button>
+    </div>
+
+    <div class="container photoContainer">
+
+        <div class="grid allPhotos">
+            <div class="grid-sizer col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/UNGYOAr0w5k" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/KfPwby-UisA" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/b9K_LTz079c" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/BegIKNC4-Zk" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/G7kUPmzi80E" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/qNJpGSCv_Jc" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/0FQneB1VjaM" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/qYYTnPdwf-Y" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/Qpjl_dXQrD8" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/KZv7w34tluA" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/Xsp_ziBrays" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/YIEdM3dpIlg" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/K4mSJ7kc0As" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/v3-zcCWMjgM" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/FbhNdD1ow2g" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/Wzj7rBxxMaw" class="img-thumbnail"></div>    
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 dogs photos"><img src="https://source.unsplash.com/P8_RmeffU-w" class="img-thumbnail"></div>
+            <div class="element-item col-lg-4 col-md-4 col-sm-6 col-xs-12 cats photos"><img src="https://source.unsplash.com/AHgpNYkX9dc" class="img-thumbnail"></div>    
+        </div>
+    </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- ISOTOPE -->
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- MASONRY -->
+<script src="js/masonry.pkgd.min.js"></script>
+<!-- IMAGES LOADED (fix for first load) -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<!-- scripts -->
+<script src="script.js"></script>
+
+</body>
+</html>

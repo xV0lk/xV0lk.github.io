@@ -1,0 +1,54 @@
+body {
+    background: #f9f9f9;
+    padding-top: 70px;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 50px;
+    z-index:300;
+}
+
+.navbar-inverse{
+    background: #33313b;
+}
+
+.jumbotron {
+    margin-bottom: 20px;
+    background: #5e6073;
+    color: white;
+}
+
+.element-item {
+    margin-bottom: 20px;
+}
+
+.element-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* .photoContainer {
+    width: 75%;
+} */
+
+
+
+/* TRANSITION TO SCALE A LITTLE BIT AND CHANGE OPACITY OF OTHER ELEMNTS */
+/* NOTE: LOOKS LIKE IT HAVE SOME ISSUES WITH THE ISOTOPE FILTER AND ORGANIZING FILTERING */
+.photos, .allPhotos {
+    transition: opacity 0.45s ease-in-out;
+}
+
+.allPhotos:hover .photos{
+    opacity: .90;
+}
+
+.allPhotos .photos:hover{
+    opacity: 1;
+}
